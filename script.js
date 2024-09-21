@@ -11,7 +11,7 @@ document.onScrollEnd = (e) => {
 }
 
 for (collapsable of collapsables) {
-  collapsable.setAttribute("onclick", "event.preventDefault();if(!scrolling){this.open = this.open ? false : true}")
+  collapsable.setAttribute("onclick", "event.preventDefault();const cellText = document.getSelection();if (cellText.type === 'Range') e.stopPropagation();if(!scrolling){this.open = this.open ? false : true}")
 }
 
 for (link of links) {
