@@ -90,3 +90,9 @@ body {
   background: #667;
   float: right;
 }
+
+@media (max-width: 400px) {
+  .section {
+    font-size: 130%;
+  }
+}
