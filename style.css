@@ -6,7 +6,7 @@ body {
 .mainname {
   text-align: center;
   font-weight: 900;
-  font-size: 100px;
+  font-size: 7em;
   margin-top: 0;
   margin-bottom: 10px;
   color: white;
@@ -17,13 +17,13 @@ body {
   font-weight: bold;
   text-align: center;
   margin-bottom: 0;
-  font-size: 40px;
+  font-size: 3em;
 }
 
 .mainname .exclamation {
   color: darkgray;
   font-weight: 900;
-  font-size: 100px;
+  font-size: 1em;
 }
 
 .spacer {
@@ -39,7 +39,7 @@ body {
 }
 
 .section {
-  font-size: 20px;
+  font-size: 1.3em;
   margin-bottom: 10px;
   color: white;
   padding: 20px;
