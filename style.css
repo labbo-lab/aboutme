@@ -6,7 +6,7 @@ body {
 .mainname {
   text-align: center;
   font-weight: 900;
-  font-size: 7em;
+  font-size: 11vmin;
   margin-top: 0;
   margin-bottom: 10px;
   color: white;
@@ -17,7 +17,7 @@ body {
   font-weight: bold;
   text-align: center;
   margin-bottom: 0;
-  font-size: 3em;
+  font-size: 5vmin;
 }
 
 .mainname .exclamation {
@@ -39,7 +39,7 @@ body {
 }
 
 .section {
-  font-size: 1.3em;
+  font-size: 3vmin;
   margin-bottom: 10px;
   color: white;
   padding: 20px;
