@@ -39,7 +39,6 @@ body {
 }
 
 .section {
-  font-size: 17px;
   margin-bottom: 10px;
   color: white;
   padding: 20px;
@@ -91,8 +90,13 @@ body {
   float: right;
 }
 
-@media (max-width: 400px) {
-  .section {
-    font-size: 130%;
+@media (max-aspect-ratio: 3/4) {
+    * {
+    font-size: 6vw;
+  }
+}
+@media (min-aspect-ratio: 4/3) {
+    * {
+    font-size: 100%;
   }
 }
